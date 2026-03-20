@@ -6,7 +6,8 @@ import React, { Suspense } from "react";
 // import UseCallBackHook from "@/components/hooks/UseCallBack/UseCallBackHook";
 // import UseMemoHook from "@/components/hooks/UseMemo/UseMemoHook";
 // import UseRefHook from "@/components/hooks/UseRef/UseRefHook";
-import Ex1 from "@/components/customhooks/ex1/ex1";
+import Ex1 from "@/components/customhooks/ex1/Ex1";
+import Ex2 from "@/components/customhooks/ex2/Ex2";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
@@ -58,7 +59,8 @@ export default function App() {
           {/* <UseCallBackHook /> */}
           {/* <UseMemoHook /> */}
           {/* <UseRefHook /> */}
-          <Ex1 />
+          {/* <Ex1 /> */}
+          <Ex2 />
         </div>
       </section>
     </>
