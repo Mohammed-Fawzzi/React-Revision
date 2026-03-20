@@ -1,26 +1,26 @@
 import React, { Suspense } from "react";
-import Page from "@/components/Page";
-import Parent from "@/components/cruds/Parent";
-import ComponentLifeCycle from "@/components/ComponentLifeCycle/ComponentLifeCycle";
-import UseReducerHook from "@/components/hooks/UseReduce/UseReducerHook";
-import UseCallBackHook from "@/components/hooks/UseCallBack/UseCallBackHook";
-import UseMemoHook from "@/components/hooks/UseMemo/UseMemoHook";
+// import page from "@/components/page";
+// import Parent from "@/components/cruds/Parent";
+// import ComponentLifeCycle from "@/components/ComponentLifeCycle/ComponentLifeCycle";
+// import UseReducerHook from "@/components/hooks/UseReduce/UseReducerHook";
+// import UseCallBackHook from "@/components/hooks/UseCallBack/UseCallBackHook";
+// import UseMemoHook from "@/components/hooks/UseMemo/UseMemoHook";
 import UseRefHook from "@/components/hooks/UseRef/UseRefHook";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
-  const Layout = React.lazy(() => import("@/components/Routing/Layout"));
-  const Home = React.lazy(() => import("@/components/Routing/Home"));
+  const Layout = React.lazy(() => import("@/components/routing/Layout"));
+  const Home = React.lazy(() => import("@/components/routing/Home"));
   // Nested Routes
-  const About = React.lazy(() => import("@/components/Routing/Nested/About"));
-  const UiUx = React.lazy(() => import("@/components/Routing/Nested/UiUx"));
-  const Web = React.lazy(() => import("@/components/Routing/Nested/Web"));
+  const About = React.lazy(() => import("@/components/routing/nested/About"));
+  const UiUx = React.lazy(() => import("@/components/routing/nested/UiUx"));
+  const Web = React.lazy(() => import("@/components/routing/nested/Web"));
   const Flutter = React.lazy(
-    () => import("@/components/Routing/Nested/Flutter"),
+    () => import("@/components/routing/nested/Flutter"),
   );
 
-  const Gallery = React.lazy(() => import("@/components/Routing/Gallery"));
-  const Contact = React.lazy(() => import("@/components/Routing/Contact"));
+  const Gallery = React.lazy(() => import("@/components/routing/Gallery"));
+  const Contact = React.lazy(() => import("@/components/routing/Contact"));
 
   // const appRoutes = createBrowserRouter([
   //   {
@@ -50,7 +50,7 @@ export default function App() {
 
       <section className="mt-10 text-2xl">
         <div className="flex flex-col justify-center items-center space-y-5">
-          {/* <Page /> */}
+          {/* <page /> */}
           {/* <Parent /> */}
           {/* <ComponentLifeCycle /> */}
           {/* <UseReducerHook /> */}
