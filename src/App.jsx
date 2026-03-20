@@ -5,7 +5,8 @@ import React, { Suspense } from "react";
 // import UseReducerHook from "@/components/hooks/UseReduce/UseReducerHook";
 // import UseCallBackHook from "@/components/hooks/UseCallBack/UseCallBackHook";
 // import UseMemoHook from "@/components/hooks/UseMemo/UseMemoHook";
-import UseRefHook from "@/components/hooks/UseRef/UseRefHook";
+// import UseRefHook from "@/components/hooks/UseRef/UseRefHook";
+import Ex1 from "@/components/customhooks/ex1/ex1";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
@@ -56,7 +57,8 @@ export default function App() {
           {/* <UseReducerHook /> */}
           {/* <UseCallBackHook /> */}
           {/* <UseMemoHook /> */}
-          <UseRefHook />
+          {/* <UseRefHook /> */}
+          <Ex1 />
         </div>
       </section>
     </>
