@@ -1,13 +1,15 @@
 import React, { Suspense } from "react";
-// import page from "@/components/page";
+import Page from "@/components/page";
 // import Parent from "@/components/cruds/Parent";
 // import ComponentLifeCycle from "@/components/ComponentLifeCycle/ComponentLifeCycle";
 // import UseReducerHook from "@/components/hooks/UseReduce/UseReducerHook";
 // import UseCallBackHook from "@/components/hooks/UseCallBack/UseCallBackHook";
 // import UseMemoHook from "@/components/hooks/UseMemo/UseMemoHook";
 // import UseRefHook from "@/components/hooks/UseRef/UseRefHook";
-import Ex1 from "@/components/customhooks/ex1/Ex1";
-import Ex2 from "@/components/customhooks/ex2/Ex2";
+// import Ex1 from "@/components/customhooks/ex1/Ex1";
+// import Ex2 from "@/components/customhooks/ex2/Ex2";
+// import Button from "@/components/reusable/button/Button";
+// import ReusableForm from "@/components/reusable/form/ReusableForm";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
@@ -52,7 +54,7 @@ export default function App() {
 
       <section className="mt-10 text-2xl">
         <div className="flex flex-col justify-center items-center space-y-5">
-          {/* <page /> */}
+          <Page />
           {/* <Parent /> */}
           {/* <ComponentLifeCycle /> */}
           {/* <UseReducerHook /> */}
@@ -60,7 +62,9 @@ export default function App() {
           {/* <UseMemoHook /> */}
           {/* <UseRefHook /> */}
           {/* <Ex1 /> */}
-          <Ex2 />
+          {/* <Ex2 /> */}
+          {/* <Button /> */}
+          {/* <ReusableForm /> */}
         </div>
       </section>
     </>
