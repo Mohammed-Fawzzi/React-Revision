@@ -97,7 +97,7 @@ export default function Parent() {
 
       {isModalOpen && selectedProduct && (
         <div className="fixed inset-0 bg-black/50 flex justify-center items-center">
-          <div className="bg-white w-[400px] p-6 rounded-lg shadow-lg">
+          <div className="bg-white w-100 p-6 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold mb-4">Update Product</h2>
 
             <input

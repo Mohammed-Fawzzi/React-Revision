@@ -13,18 +13,18 @@ import Page from "@/components/page";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 export default function App() {
-  const Layout = React.lazy(() => import("@/components/routing/Layout"));
-  const Home = React.lazy(() => import("@/components/routing/Home"));
-  // Nested Routes
-  const About = React.lazy(() => import("@/components/routing/nested/About"));
-  const UiUx = React.lazy(() => import("@/components/routing/nested/UiUx"));
-  const Web = React.lazy(() => import("@/components/routing/nested/Web"));
-  const Flutter = React.lazy(
-    () => import("@/components/routing/nested/Flutter"),
-  );
+  // const Layout = React.lazy(() => import("@/components/routing/Layout"));
+  // const Home = React.lazy(() => import("@/components/routing/Home"));
+  // // Nested Routes
+  // const About = React.lazy(() => import("@/components/routing/nested/About"));
+  // const UiUx = React.lazy(() => import("@/components/routing/nested/UiUx"));
+  // const Web = React.lazy(() => import("@/components/routing/nested/Web"));
+  // const Flutter = React.lazy(
+  //   () => import("@/components/routing/nested/Flutter"),
+  // );
 
-  const Gallery = React.lazy(() => import("@/components/routing/Gallery"));
-  const Contact = React.lazy(() => import("@/components/routing/Contact"));
+  // const Gallery = React.lazy(() => import("@/components/routing/Gallery"));
+  // const Contact = React.lazy(() => import("@/components/routing/Contact"));
 
   // const appRoutes = createBrowserRouter([
   //   {
