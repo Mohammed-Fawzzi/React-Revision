@@ -38,7 +38,7 @@ export default function Page() {
     });
 
     setCount((prev) => {
-      const newValue = prev + 2;
+      const newValue = prev + 1;
       console.log("after Third update:", newValue);
       return newValue;
     });
